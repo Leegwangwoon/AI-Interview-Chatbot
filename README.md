@@ -12,6 +12,7 @@ AI 면접 챗봇은 OpenAI의 GPT-3.5-turbo 모델을 활용하여 실제 면접
 *   **맞춤형 질문 생성**: 지원자의 경력, 기술 스택, 포트폴리오에 맞춰 차별화된 질문을 생성합니다.
 *   **실시간 상호작용**: 챗봇과의 대화를 통해 실제 면접 환경을 시뮬레이션합니다.
 *   **지속적인 학습**: 이전 질문과 답변을 기억하여, 더욱 심층적인 질문을 던집니다.
+*   음성 인식 기능 (apply_stt-tts): 음성 인식(STT) 및 텍스트 음성 변환(TTS)을 통해 보다 자연스럽고 몰입감 있는 면접 경험을 제공합니다. 이 버전에서는 음성으로 질문을 받고, 답변 또한 음성으로 제공할 수 있습니다. 면접을 진행하는 동안 키보드를 사용하지 않고 음성으로만 상호작용이 가능합니다.
 
 ---
 
@@ -24,7 +25,7 @@ AI 면접 챗봇은 OpenAI의 GPT-3.5-turbo 모델을 활용하여 실제 면접
 
 2.  **필요 패키지 설치**:
     ```
-    pip install openai python-dotenv
+    pip install openai python-dotenv SpeechRecognition pyttsx3
     ```
 
 3.  **.env 파일 설정**:
@@ -39,7 +40,10 @@ AI 면접 챗봇은 OpenAI의 GPT-3.5-turbo 모델을 활용하여 실제 면접
     ```
     python interview_simulator.py
     ```
-
+    
+    ```
+    python interview_simulator_stt_tts.py
+    ```
 ---
 
 ## 🖼️ 구현 화면
