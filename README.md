@@ -49,7 +49,7 @@ AI 면접 챗봇은 OpenAI의 GPT-3.5-turbo 모델을 활용하여 실제 면접
 ## 🖼️ 구현 화면
 
 ![AI 면접 챗봇 실행 화면](./image/image.png)
-![AI 면접 챗봇 실행 화면](./image2/image.png)
+![AI 면접 챗봇 실행 화면](./image/image2.png)
 
 
 ---
